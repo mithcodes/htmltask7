@@ -1,0 +1,5 @@
+const headerTitle = document.getElementById('header-title');
+headerTitle.insertAdjacentText('beforebegin', 'Hello ');
+
+const firstListItem = document.querySelector('#items .list-group-item:first-child');
+firstListItem.insertAdjacentText('beforebegin', 'Hello ');
